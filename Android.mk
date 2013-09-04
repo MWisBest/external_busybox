@@ -78,6 +78,7 @@ BUSYBOX_SRC_FILES = $(shell cat $(BB_PATH)/busybox-$(BUSYBOX_CONFIG).sources) \
 
 ifeq ($(TARGET_ARCH),arm)
 	BUSYBOX_SRC_FILES += \
+	android/libc/arch-arm/bionic/bionic_syscall.S \
 	android/libc/arch-arm/syscalls/adjtimex.S \
 	android/libc/arch-arm/syscalls/getsid.S \
 	android/libc/arch-arm/syscalls/stime.S \
