@@ -110,6 +110,7 @@ BUSYBOX_C_INCLUDES = \
 	$(BB_PATH)/include-$(BUSYBOX_CONFIG) \
 	$(BB_PATH)/include $(BB_PATH)/libbb \
     bionic/libc \
+    bionic/libc/dns/include \
 	bionic/libc/private \
 	bionic/libm/include \
 	bionic/libm \
